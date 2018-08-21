@@ -21,7 +21,7 @@ let server=http.createServer((req,res)=>{
   })
 
 });
-server.listen(8080,'localhost',()=>{
-  console.log('服务器已经运行');
+server.listen(8087,'localhost',()=>{
+  console.log('服务器已经运行:http://localhost:8087');
   //console.log(url.parse('http://localhost:8080/index.html?a=1232'));
 });

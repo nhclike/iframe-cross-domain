@@ -21,7 +21,7 @@ let server=http.createServer((req,res)=>{
   })
 
 });
-server.listen(3000,'127.0.0.1',()=>{
-  console.log('服务器已经运行');
+server.listen(3020,'127.0.0.1',()=>{
+  console.log('服务器已经运行:http://127.0.0.1:3020');
   //console.log(url.parse('http://localhost:3000/index.html?a=1232'));
 });
